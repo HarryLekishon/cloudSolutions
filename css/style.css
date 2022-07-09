@@ -2,6 +2,9 @@
 
 :root{
     --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
 }
 * {
     box-sizing: border-box;
@@ -142,4 +145,25 @@ img {
 .cloud .grid {
     grid-template-columns: 4fr 3fr;
     
+}
+
+/* languages */
+
+.languages .flex {
+    flex-wrap: wrap;
+}
+
+.langauages .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+.langauages .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.langauages .card:hover {
+    transform: translateY(-15px)
 }
