@@ -179,6 +179,7 @@ s
 .features-head img, .docs-head img{
     width: 200px;
     justify-self: flex-end;
+    
 }
 .features-sub-head img {
     width: 300px;
